@@ -1,4 +1,4 @@
-#Exercici 1
+# Exercici 1
 Crea un fitxer anomenat user.py. Has d’afegir les següents funcions:
 a) demanarEdat: aquesta funció ha de demanar a l’usuari una edat i ha de
 validar que sigui correcte. L’edat ha d’estar entre 0 i 130 anys. Si el
@@ -19,7 +19,7 @@ d) login: La funció rep una diccionari amb dades d’usuaris, un usuari i una
 clau. Retorna un booleà que indica si l’usuari i la clau passada correspon a
 un usuari del diccionari.
 
-Exercici 2
+# Exercici 2
 Crea un fitxer anomenat dates.py. Has d’afegir les següents funcions:
 a) avui: aquesta funció ha de retornar una cadena amb la data d’avui amb el
 següent format:
@@ -31,7 +31,7 @@ d) aniversari: aquesta funció rep una cadena amb format “dia/mes/any” i ha
 de retornar un booleà indicant si el mes que s’ha donat com argument
 coincideix amb el mes actual.
 
-Exercici 3
+# Exercici 3
 Crea un fitxer anomenat main.py, que serà el programa principal. Aquest fitxer
 farà servir les funcions dels mòduls que heu creat en els exercicis anteriors, així
 que els haureu d’importar.
