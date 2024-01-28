@@ -51,15 +51,18 @@ Crea un fitxer anomenat main.py, que serà el programa principal. Aquest fitxer
 farà servir les funcions dels mòduls que heu creat en els exercicis anteriors, així
 que els haureu d’importar.
 L’aplicació a l’iniciar ha de mostrar el següent menú:
-1. Registrar usuari
+
+*1. Registrar usuari
 2. Login
 3. Mostrar dades d’un usuari
-4. Sortir
+4. Sortir*
+
 El menú es mostrarà cada cop que s’acabi el codi de l’opció escollida per l’usuari
 fins que l’usuari indiqui l’opció de sortir. En cas de que l’usuari demani una
 opció que no està al menú s’haurà de mostrar el missatge “Opció incorrecta” i
 es tornarà a mostrar el menú.
-1. Registrar usuari: demanarà a les següents dades:
+### 1. Registrar usuari
+Demanarà a les següents dades:
 Usuari i paraula de pas. S’haurà de validar que són correctes fent servir la
 funció corresponent de l’exercici 1. A més s’haurà de validar que no hi ha
 registrat un usuari amb el mateix nom d’usuari.
@@ -68,15 +71,18 @@ Data de naixement: demanarà la data de naixement de l’usuari validant que és
 correcte.
 Un cop totes les dades siguin correctes es guardaran a un diccionari i es donarà
 el missatge “Usuari registrat”
-2. Login: es demanarà usuari i clau i si és correcte s’indicarà el següent
+### 2. Login
+Es demanarà usuari i clau i si és correcte s’indicarà el següent
 missatge:
 
 *Benvingut/da Isabel
    Avui és: 18 de Abril del 2022
    Aquest mes no és el teu aniversari
    Falten 340 dies per al teu aniversari.*
+   
 Segons les dades de l’usuari.
 Si no és correcte s’indicarà: “Usuari o paraula de pas incorrectes”.
-4. Mostrar dades d’un usuari: Demanarà el nom d’un usuari i, si existeix,
+### 3. Mostrar dades d’un usuari
+Demanarà el nom d’un usuari i, si existeix,
 mostrarà totes les seves dades (excepte la clau, és clar!). Si no existeix donarà
 el corresponent missatge d’error.
