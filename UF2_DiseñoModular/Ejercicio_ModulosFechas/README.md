@@ -22,7 +22,7 @@ naixement demanant tres dades:
 - any: ha de ser un número entre 1900 i 2021.
 La funció retornarà una cadena amb el format “dia/mes/any”. Per
 simplificar només es faran les comprovacions que indica l’enunciat.
-d) login: La funció rep una diccionari amb dades d’usuaris, un usuari i una
+### d) login: La funció rep una diccionari amb dades d’usuaris, un usuari i una
 clau. Retorna un booleà que indica si l’usuari i la clau passada correspon a
 un usuari del diccionari.
 
@@ -32,6 +32,7 @@ Crea un fitxer anomenat dates.py. Has d’afegir les següents funcions:
 ### a) avui
 Aquesta funció ha de retornar una cadena amb la data d’avui amb el
 següent format:
+
 *Avui és: 17 de Abril del 2022*
 ### b) properAniversari
 Aquesta funció rep la data de naixement en una cadena
@@ -69,12 +70,13 @@ Un cop totes les dades siguin correctes es guardaran a un diccionari i es donar�
 el missatge “Usuari registrat”
 2. Login: es demanarà usuari i clau i si és correcte s’indicarà el següent
 missatge:
+
 *Benvingut/da Isabel
    Avui és: 18 de Abril del 2022
    Aquest mes no és el teu aniversari
    Falten 340 dies per al teu aniversari.*
 Segons les dades de l’usuari.
 Si no és correcte s’indicarà: “Usuari o paraula de pas incorrectes”.
-3. Mostrar dades d’un usuari: Demanarà el nom d’un usuari i, si existeix,
+4. Mostrar dades d’un usuari: Demanarà el nom d’un usuari i, si existeix,
 mostrarà totes les seves dades (excepte la clau, és clar!). Si no existeix donarà
 el corresponent missatge d’error.
