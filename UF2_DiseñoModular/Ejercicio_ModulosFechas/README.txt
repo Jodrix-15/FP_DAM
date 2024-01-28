@@ -1,4 +1,4 @@
-##Exercici 1
+#Exercici 1
 Crea un fitxer anomenat user.py. Has d’afegir les següents funcions:
 a) demanarEdat: aquesta funció ha de demanar a l’usuari una edat i ha de
 validar que sigui correcte. L’edat ha d’estar entre 0 i 130 anys. Si el
