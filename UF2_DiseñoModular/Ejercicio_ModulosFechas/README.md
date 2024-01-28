@@ -3,7 +3,7 @@
 Crea un fitxer anomenat user.py. Has d’afegir les següents funcions:
 
 ### a) demanarEdat
-aquesta funció ha de demanar a l’usuari una edat i ha de
+Aquesta funció ha de demanar a l’usuari una edat i ha de
 validar que sigui correcte. L’edat ha d’estar entre 0 i 130 anys. Si el
 número no és correcte tornarà a demanar l’edat fins que sigui correcte.
 Retorna el valor de l’edat.
@@ -15,7 +15,7 @@ clau és correcte si té 6 caràcters i té al menys una vocal. Retorna un
 booleà indicant si l’usuari i la clau compleix el requisit.
 
 ### c) demanarNaixament
-aquesta funció ha de demanar a l’usuari la data de
+Aquesta funció ha de demanar a l’usuari la data de
 naixement demanant tres dades:
 - dia: ha de ser un número entre 1 i 31.
 - mes: ha de ser un número entre 1 i 12.
@@ -30,16 +30,16 @@ un usuari del diccionari.
 
 Crea un fitxer anomenat dates.py. Has d’afegir les següents funcions:
 ### a) avui
-aquesta funció ha de retornar una cadena amb la data d’avui amb el
+Aquesta funció ha de retornar una cadena amb la data d’avui amb el
 següent format:
 ### b) properAniversari
-aquesta funció rep la data de naixement en una cadena
+Aquesta funció rep la data de naixement en una cadena
 amb format “dia/mes/any” i retorna la data del proper aniversari.
 ### c) quantFalta
-aquesta funció rep una data, del futur, i ha de retornar quants
+Aquesta funció rep una data, del futur, i ha de retornar quants
 dies falten per a que arribi la data.
 ### d) aniversari
-aquesta funció rep una cadena amb format “dia/mes/any” i ha
+Aquesta funció rep una cadena amb format “dia/mes/any” i ha
 de retornar un booleà indicant si el mes que s’ha donat com argument
 coincideix amb el mes actual.
 
