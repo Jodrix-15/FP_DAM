@@ -1,15 +1,18 @@
 # Exercici 1
 
 Crea un fitxer anomenat user.py. Has d’afegir les següents funcions:
-a) demanarEdat: aquesta funció ha de demanar a l’usuari una edat i ha de
+
+## a) demanarEdat: aquesta funció ha de demanar a l’usuari una edat i ha de
 validar que sigui correcte. L’edat ha d’estar entre 0 i 130 anys. Si el
 número no és correcte tornarà a demanar l’edat fins que sigui correcte.
 Retorna el valor de l’edat.
-b) validarUsuari: La funció rep dos paràmetres, usuari i clau i ha de validar
+
+## b) validarUsuari: La funció rep dos paràmetres, usuari i clau i ha de validar
 que siguin correctes. Un usuari és correcte si té almenys 4 caràcters i la
 clau és correcte si té 6 caràcters i té al menys una vocal. Retorna un
 booleà indicant si l’usuari i la clau compleix el requisit.
-c) demanarNaixament: aquesta funció ha de demanar a l’usuari la data de
+
+## c) demanarNaixament: aquesta funció ha de demanar a l’usuari la data de
 naixement demanant tres dades:
 - dia: ha de ser un número entre 1 i 31.
 - mes: ha de ser un número entre 1 i 12.
