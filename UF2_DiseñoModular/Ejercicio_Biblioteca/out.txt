@@ -1,0 +1,72 @@
+> No hi ha cap llibre registrat.
+> Llibre registrat.
+> Llibres en préstec:
+L'alumne indicat no té cap llibre en préstec.
+Incidències:
+L'alumne indicat no té cap incidència registrada.
+> Préstec registrat. El llibre s’ha de retornar: 2023-03-16
+> Error: nº d'arguments incorrecte
+> Error: nº d'arguments incorrecte
+> Llibre registrat.
+> Llibre registrat.
+> 001 : La Historia Interminable , Michael Ende  - ESTAT: en préstec
+002 : El principito , Antoine de Saint ExupÃ©ry  - ESTAT: disponible
+003 : Nacidos de la Bruma: El imperio final , Brandon Sanderson  - ESTAT: disponible
+> 001 : La Historia Interminable , Michael Ende  - ESTAT: en préstec
+003 : Nacidos de la Bruma: El imperio final , Brandon Sanderson  - ESTAT: disponible
+> Error: El llibre indicat ja està en préstec
+> Préstec registrat. El llibre s’ha de retornar: 2023-04-14
+> Llibre registrat.
+> Llibre registrat.
+> Error: El llibre no està en préstec
+> Error: La data de retorn no pot ser anterior a la data d'inici del préstec.
+> El llibre amb més pàgines de la biblioteca és: Piensa en Java , amb 958 pàgines
+> Llibre: 001 La Historia Interminable Alumne:  Aitor tilla Data inici: 2023-03-01 Data fi:  2023-03-16	* FORA DE TERMINI *
+Llibre: 003 Nacidos de la Bruma: El imperio final Alumne:  Aitor menta Data inici: 2023-03-30 Data fi:  2023-04-14	* FORA DE TERMINI *
+> Llibres en préstec:
+Llibre: 003 - Nacidos de la Bruma: El imperio final  Inici:  2023-03-30 Data fi:  2023-04-14
+Incidències:
+L'alumne indicat no té cap incidència registrada.
+> El llibre ha quedat disponible.
+> Préstec registrat. El llibre s’ha de retornar: 2023-04-15
+> Préstec registrat. El llibre s’ha de retornar: 2023-04-15
+> El llibre s'ha retornat amb retard. Incidència registrada.
+El llibre ha quedat disponible.
+> Número de llibres registrats: 5
+Número d'incidències registrades: 1
+Mitjana de pàgines per llibre: 567.8
+> Error: Ja existeix un llibre amb aquest codi
+> Llibre registrat.
+> Error: Comanda incorrecte
+> Error: No hi ha cap llibre registrat amb el codi indicat
+> Préstec registrat. El llibre s’ha de retornar: 2023-03-25
+> Préstec registrat. El llibre s’ha de retornar: 2023-03-30
+> Error: nº d'arguments incorrecte
+> El llibre ha quedat disponible.
+> 001 : La Historia Interminable , Michael Ende  - ESTAT: disponible
+002 : El principito , Antoine de Saint ExupÃ©ry  - ESTAT: disponible
+003 : Nacidos de la Bruma: El imperio final , Brandon Sanderson  - ESTAT: en préstec
+004 : Piensa en Java , Bruce Eckel  - ESTAT: en préstec
+005 : Nacidos de la Bruma: El pozo de la ascensiÃ³n , Brandon Sanderson  - ESTAT: en préstec
+006 : El mundo de SofÃ­a , Jostein Gaarder  - ESTAT: disponible
+> No hi ha cap llibre del gènere indicat.
+> Préstec registrat. El llibre s’ha de retornar: 2023-04-15
+> Llibre: 001 La Historia Interminable Alumne:  Alba cete Data inici: 2023-03-31 Data fi:  2023-04-15	* FORA DE TERMINI *
+Llibre: 003 Nacidos de la Bruma: El imperio final Alumne:  Aitor tilla Data inici: 2023-03-31 Data fi:  2023-04-15	* FORA DE TERMINI *
+Llibre: 004 Piensa en Java Alumne:  Aitor tilla Data inici: 2023-03-31 Data fi:  2023-04-15	* FORA DE TERMINI *
+Llibre: 005 Nacidos de la Bruma: El pozo de la ascensiÃ³n Alumne:  Alba cete Data inici: 2023-03-10 Data fi:  2023-03-25	* FORA DE TERMINI *
+> El llibre s'ha retornat amb retard. Incidència registrada.
+El llibre ha quedat disponible.
+> Llibres en préstec:
+Llibre: 003 - Nacidos de la Bruma: El imperio final  Inici:  2023-03-31 Data fi:  2023-04-15
+Llibre: 004 - Piensa en Java  Inici:  2023-03-31 Data fi:  2023-04-15
+Incidències:
+Llibre: 001 Data Inici Préstec: 2023-03-01 Data Fi: 2023-03-16 Data Retorn: 2023-03-31
+> Llibres en préstec:
+L'alumne indicat no té cap llibre en préstec.
+Incidències:
+L'alumne indicat no té cap incidència registrada.
+> Número de llibres registrats: 6
+Número d'incidències registrades: 2
+Mitjana de pàgines per llibre: 582.5
+> 

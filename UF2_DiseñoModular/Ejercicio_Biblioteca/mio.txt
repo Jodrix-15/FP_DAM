@@ -1,0 +1,67 @@
+> No hay ningún libro registrado
+> Libro Registrado
+> El alumno AITOR TILLA no se encuentra en la base de datos
+> Préstamo registrado. El libro se tiene que devolver: 16/03/2023
+> ERROR: nº de argumentos incorrecto
+> ERROR: nº de argumentos incorrecto
+> Libro Registrado
+> Libro Registrado
+> 001 : la historia interminable , michael ende   - ESTAT: En Prestec
+002 : el principito , antoine de saint exupã©ry   - ESTAT: disponible
+003 : nacidos de la bruma: el imperio final , brandon sanderson   - ESTAT: disponible
+> 001 : la historia interminable , michael ende   - ESTAT: En Prestec
+003 : nacidos de la bruma: el imperio final , brandon sanderson   - ESTAT: disponible
+> ERROR. El libro con el código 001 ya está en préstamo
+> Préstamo registrado. El libro se tiene que devolver: 14/04/2023
+> Libro Registrado
+> Libro Registrado
+> ERROR. El libro no está en préstamo
+> ERROR. No se puede develover un libro antes del día del préstamo
+> El libro con más páginas es piensa en java, con 958 páginas
+> Libro: 001 - la historia interminable - Alumno: aitor tilla - Fecha_Inicio: 01/03/2023 - Fecha_Fin: 16/03/2023 - * FUERA DE PLAZO *
+Libro: 003 - nacidos de la bruma: el imperio final - Alumno: aitor menta - Fecha_Inicio: 30/03/2023 - Fecha_Fin: 14/04/2023 - * FUERA DE PLAZO *
+> Libros en préstamo: 
+Libro: 003 - nacidos de la bruma: el imperio final	 Fecha_Inicio: 30/03/2023	 Fecha_Fin: 14/04/2023
+El alumno AITOR MENTA no tiene ninguna incidencia
+
+> El libro ha quedado disponible
+> Préstamo registrado. El libro se tiene que devolver: 15/04/2023
+> Préstamo registrado. El libro se tiene que devolver: 15/04/2023
+> Has devuelto el libro fuera de plazo
+El libro ha quedado disponible
+> Número de libros registrados: 5
+Número de incidencias registradas: 1
+Media de páginas por libro: 567.8
+> ERROR. Ya existe un libro con el mismo código
+> Libro Registrado
+> OPCION NO VALIDA
+> El libro con el código 008 no existe
+> Préstamo registrado. El libro se tiene que devolver: 25/03/2023
+> Préstamo registrado. El libro se tiene que devolver: 30/03/2023
+> ERROR: nº de argumentos incorrecto
+> El libro ha quedado disponible
+> 001 : la historia interminable , michael ende   - ESTAT: disponible
+002 : el principito , antoine de saint exupã©ry   - ESTAT: disponible
+003 : nacidos de la bruma: el imperio final , brandon sanderson   - ESTAT: En Prestec
+004 : piensa en java , bruce eckel   - ESTAT: En Prestec
+005 : nacidos de la bruma: el pozo de la ascensiã³n , brandon sanderson   - ESTAT: En Prestec
+006 : el mundo de sofã­a , jostein gaarder   - ESTAT: disponible
+> No hay ningún libro registrado del género matemã tiques
+> Préstamo registrado. El libro se tiene que devolver: 15/04/2023
+> Libro: 001 - la historia interminable - Alumno: alba cete - Fecha_Inicio: 31/03/2023 - Fecha_Fin: 15/04/2023 - * FUERA DE PLAZO *
+Libro: 003 - nacidos de la bruma: el imperio final - Alumno: aitor tilla - Fecha_Inicio: 31/03/2023 - Fecha_Fin: 15/04/2023 - * FUERA DE PLAZO *
+Libro: 004 - piensa en java - Alumno: aitor tilla - Fecha_Inicio: 31/03/2023 - Fecha_Fin: 15/04/2023 - * FUERA DE PLAZO *
+Libro: 005 - nacidos de la bruma: el pozo de la ascensiã³n - Alumno: alba cete - Fecha_Inicio: 10/03/2023 - Fecha_Fin: 25/03/2023 - * FUERA DE PLAZO *
+> Has devuelto el libro fuera de plazo
+El libro ha quedado disponible
+> Libros en préstamo: 
+Libro: 003 - nacidos de la bruma: el imperio final	 Fecha_Inicio: 31/03/2023	 Fecha_Fin: 15/04/2023
+Libro: 004 - piensa en java	 Fecha_Inicio: 31/03/2023	 Fecha_Fin: 15/04/2023
+
+Incidencias: 
+Libro: 001	 Fecha_Inicio: 01/03/2023	 Fecha_Fin: 16/03/2023	 Fecha_Retorno: 31/03/2023
+> El alumno aitor menta no tiene ningún libro en préstamo
+> Número de libros registrados: 6
+Número de incidencias registradas: 2
+Media de páginas por libro: 582.5
+> 

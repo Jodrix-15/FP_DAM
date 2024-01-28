@@ -1,0 +1,41 @@
+listLlibres
+addLlibre-001-La Historia Interminable-Michael Ende-Fantasia-420
+info-Aitor Tilla
+STARTPRESTEC-001-Aitor Tilla-1/3/2023
+addllibre-002-El princitpio
+addllibre-002-El principito-Antoine de Saint-Exupéry-Infantil-120
+addllibre-002-El principito-Antoine de Saint Exupéry-Infantil-120
+addllibre-003-Nacidos de la Bruma: El imperio final-Brandon Sanderson-fantasia-541
+listllibres
+listgenere-fantasia
+startprestec-001-Aitor Menta-30/03/2023
+startprestec-003-Aitor Menta-30/03/2023
+addllibre-004-Piensa en Java-Bruce Eckel-Programació-958
+addllibre-005-Nacidos de la Bruma: El pozo de la ascensión-Brandon Sanderson-fantasia-800
+endprestec-002-31/3/2023
+endprestec-003-1/3/2023
+maxllibre
+listPrestecs
+info-Aitor Menta
+endprestec-003-31/3/2023
+startprestec-003-Aitor Tilla-31/3/2023
+startprestec-004-Aitor Tilla-31/3/2023
+endprestec-001-31/3/2023
+stats
+addllibre-001-El mundo de Sofía-Jostein Gaarder-Filosofia-656
+addllibre-006-El mundo de Sofía-Jostein Gaarder-Filosofia-656
+starprestec-001
+startPrestec-008-Alba Cete-10/3/2023
+startPrestec-005-Alba Cete-10/3/2023
+startprestec-001-Paloma Leta-15/3/2023
+endprestec-001-Alba Cete-01/04/2023
+endPrestec-001-27/3/2023
+listllibres
+listgenere-Matemàtiques
+startPrestec-001-Alba Cete-31/3/2023
+listPrestecs
+endprestec-005-31/3/2023
+info-Aitor Tilla
+info-Aitor Menta
+stats
+quit
