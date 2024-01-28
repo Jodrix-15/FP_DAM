@@ -53,12 +53,9 @@ farà servir les funcions dels mòduls que heu creat en els exercicis anteriors,
 que els haureu d’importar.
 L’aplicació a l’iniciar ha de mostrar el següent menú:
 
-*1. Registrar usuari
-
-2. Login
-   
-3. Mostrar dades d’un usuari
-   
+*1. Registrar usuari<br>
+2. Login<br>
+3. Mostrar dades d’un usuari <br>
 4. Sortir*
 
 El menú es mostrarà cada cop que s’acabi el codi de l’opció escollida per l’usuari
@@ -79,12 +76,9 @@ el missatge “Usuari registrat”
 Es demanarà usuari i clau i si és correcte s’indicarà el següent
 missatge:
 
-*Benvingut/da Isabel
-
-   Avui és: 18 de Abril del 2022
-   
-   Aquest mes no és el teu aniversari
-   
+*Benvingut/da Isabel<br>
+   Avui és: 18 de Abril del 2022<br>
+   Aquest mes no és el teu aniversari<br>
    Falten 340 dies per al teu aniversari.*
    
 Segons les dades de l’usuari.
