@@ -26,7 +26,7 @@ def IaddLlibre(comList):
         codigo = comList[1].upper()
         isAlNum, exist, isNum = True, True, True
 
-        if codigo.isalnum() == False:
+        if not codigo.isalnum():
             print("ERROR: El código debe ser alfanumérico")
             isAlNum = False
 
@@ -36,30 +36,33 @@ def IaddLlibre(comList):
 
         numPag = comList[5]
 
-        if numPag.isnumeric() == False:
+        if not numPag.isnumeric():
             print("ERROR: El número de páginas debe contener un número mayor que cero")
             isNum = False
 
+        if int(numPag) < 1:
+            print("ERROR: El número de páginas debe contener un número mayor que cero")
+            isNum = False
 
-        if isAlNum == True and isNum == True and exist == True:
-            b.addLlibre(codigo, comList[2], comList[3], comList[4], numPag)
+        if isAlNum and isNum and exist:
+            b.addLlibre(codigo, comList[2], comList[3], comList[4], int(numPag))
 
 
 def IListLlibres(comList):
 
     if correctArguments(comList, 1):
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             b.listLibros()
 
 def IListGenere(comList):
 
     if correctArguments(comList, 2):
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             b.listGenere(comList[1])
 
 def IMaxLlibre(comList):
     if correctArguments(comList, 1):
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             b.maxLibros()
 
 def Iinfo(comList):
@@ -87,7 +90,7 @@ def IStartPrestec(comList):
     if correctArguments(comList, 4):
         alumno = comList[2]
         startDate = b.fecha2Date(comList[3])
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             if comList[1].upper() in b.getLibros():
                 if b.getLibros()[comList[1].upper()]["Estado"].lower() == "disponible":
                     b.startPrestec(comList[1].upper(), alumno, startDate)
@@ -101,38 +104,32 @@ def IStartPrestec(comList):
 def IListPrestec(comList):
 
     if correctArguments(comList, 1):
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             b.listPrestec()
 
 def IStats(comList):
 
     if correctArguments(comList, 1):
-        if libraryEmpty() == False:
+        if not libraryEmpty():
             b.stats()
 
 def IEndPrestec(comList):
 
     if correctArguments(comList, 3):
         fechaRetorno = b.fecha2Date(comList[2])
-        i = 0
-        libroEncontrado = False
-        if libraryEmpty() == False:
+
+        if not libraryEmpty():
             if comList[1].upper() not in b.getLibros():
                 print(f"El libro con código {comList[1].upper()} no se encuentra en la base de datos")
+
             else:
-                while libroEncontrado == False and i < len(b.getLibros()):
+                if b.getLibros()[comList[1].upper()]["Estado"] == "En Prestec":
+                    for a, v in b.getAlumnos().items():
+                        if comList[1].upper() in v["En Prestec"]:
+                            alumno = a
+                            fechaInicio = b.fecha2Date(v["En Prestec"][comList[1].upper()]["Inicio"])
+                            fechaFin = b.fecha2Date(v["En Prestec"][comList[1].upper()]["Fin"])
 
-                    if b.getLibros()[comList[1].upper()]["Estado"] == "En Prestec":
-                        for a, v in b.getAlumnos().items():
-                            if comList[1].upper() in v["En Prestec"]:
-                                alumno = a
-                                fechaInicio = b.fecha2Date(v["En Prestec"][comList[1].upper()]["Inicio"])
-                                fechaFin = b.fecha2Date(v["En Prestec"][comList[1].upper()]["Fin"])
-
-                                libroEncontrado = True
-                    i+=1
-
-                if libroEncontrado:
                     if fechaRetorno < fechaInicio:
                         print("ERROR. No se puede develover un libro antes del día del préstamo")
 

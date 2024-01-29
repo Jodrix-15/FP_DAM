@@ -1,9 +1,10 @@
 import Interprete as itr
 
+
 def main():
 
     finalizar = False
-    while finalizar == False:
+    while not finalizar:
 
         command = input("> ").lower()
         comList = command.split("-")
