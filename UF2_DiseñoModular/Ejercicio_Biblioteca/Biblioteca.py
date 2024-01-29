@@ -54,9 +54,9 @@ def startPrestec(codigoLibro, nombreAlumno, fechaInicio):
 
     nuevoLibro = {
         codigoLibro: {
-            "Titulo": getLibros()[codigoLibro]["Titulo"],
-            "Inicio": d.date.strftime(fechaInicio, "%d/%m/%Y"),
-            "Fin": fechaFinal
+            "Inicio": fecha2String(fechaInicio),
+            "Fin": fechaFinal,
+            "Retorno": ""
         }
     }
     alumnos[nombreAlumno]["En Prestec"].update(nuevoLibro)
