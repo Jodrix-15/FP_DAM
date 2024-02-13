@@ -56,7 +56,7 @@ comprovar i informar, com sempre, de tots els possibles errors
 Mostrarà tota la informació de totes les habitacions de l’hotel de la següent 
 manera:
 
-'''
+```
 ===============        INFO HOTEL        ===============
 HAB		CAP		ESTADO
 --------------------------------------------------------
@@ -65,7 +65,7 @@ HAB		CAP		ESTADO
 Total habitaciones: 1
 Disponibles: 1	Ocupadas: 0	Sucias: 0
 -------------------------------------------------------
-'''
+```
 
 ### f) info dni
 Mostrarà l’habitació (o habitacions) que tingui reservada el client indicat, si 
