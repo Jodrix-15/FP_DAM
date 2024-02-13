@@ -1,5 +1,7 @@
-#PRÁCTICA
-##Descripción
+# PRÁCTICA
+
+## Descripción
+
 L’hotel CalaGava necessita una aplicació per a poder gestionar les reserves de les 
 seves habitacions i la gestió de les mateixes. 
 De cada habitació s’ha de guardar el nº d’habitació (que és l’identificador), 
