@@ -60,11 +60,13 @@ manera:
 ===============        INFO HOTEL        ===============
 HAB		CAP		ESTADO
 --------------------------------------------------------
-104		4		DISPONIBLE	
+104		4		OCUPADA		=> Cliente: Cabra Loca
+105		2		DISPONIBLE	
 ========================================================
-Total habitaciones: 1
-Disponibles: 1	Ocupadas: 0	Sucias: 0
+Total habitaciones: 2
+Disponibles: 1	Ocupadas: 1	Sucias: 0
 -------------------------------------------------------
+
 ```
 
 ### f) info dni
@@ -73,8 +75,17 @@ Mostrarà l’habitació (o habitacions) que tingui reservada el client indicat,
 En cas contrari mostrarà un missatge indicant que l’hotel no té cap reserva 
 amb el dni indicat. 
 La informació s’ha de mostrar de la següent manera
+```
+Datos del Cliente:	Loca , Cabra - Tfn: 123456789
+Habitación:  104
+```
 
 ### g) reserves
 Mostrarà tota la informació de les reserves de l’hotel de la següent manera:
+```
+===========      RESERVAS      ===========
+104 : 12345678Z - Cabra Loca - 123456789
+==========================================
+```
 
 
