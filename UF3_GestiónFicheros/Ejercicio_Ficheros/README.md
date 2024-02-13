@@ -56,7 +56,16 @@ comprovar i informar, com sempre, de tots els possibles errors
 Mostrarà tota la informació de totes les habitacions de l’hotel de la següent 
 manera:
 
-!(https://github.com/Jodrix15/FP_DAM/blob/main/UF3_Gesti%C3%B3nFicheros/Ejercicio_Ficheros/capturas/1.PNG)
+'''
+===============        INFO HOTEL        ===============
+HAB		CAP		ESTADO
+--------------------------------------------------------
+104		4		DISPONIBLE	
+========================================================
+Total habitaciones: 1
+Disponibles: 1	Ocupadas: 0	Sucias: 0
+-------------------------------------------------------
+'''
 
 ### f) info dni
 Mostrarà l’habitació (o habitacions) que tingui reservada el client indicat, si 
