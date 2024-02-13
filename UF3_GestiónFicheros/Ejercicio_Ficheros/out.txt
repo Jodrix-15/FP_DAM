@@ -1,0 +1,87 @@
+ERROR. Debe ser un número que no sea negativo
+Número habitación incorrecto. Tiene que ser mayor que 0
+Capacidad incorrecta. Tiene que ser mayor que 0
+ERROR. Debe ser un número que no sea negativo
+ERROR. Debe ser un número que no sea negativo
+Precio Incorrecto. Tiene que ser mayor que 0
+ERROR. Si el primer argumento es 'añadir', debe haber obligatoriamente un segundo argumento
+ERROR. Nº de argumentos incorrecto
+ERROR. Nº de argumentos incorrecto
+ERROR. Debe ser un número que no sea negativo
+El número debe contener 9 números
+ERROR. Debe contener 8 números y una letra al final
+Número habitación incorrecto. Tiene que ser mayor que 0
+El número debe contener 9 números
+ERROR. Debe contener 8 números y una letra al final
+El formato del DNI debe ser '12345678X'
+El número debe contener 9 números
+ERROR. Nº de argumentos incorrecto
+ERROR. Debe ser un número que no sea negativo
+ERROR. Nº de argumentos incorrecto
+No hay habitaciones registradas
+No hay habitaciones registradas
+No hay ninguna habitación registrada
+No hay ninguna reserva registrada
+ERROR. Nº de argumentos incorrecto
+No hay ninguna reserva hecha
+ERROR. Nº de argumentos incorrecto
+Habitación registrada correctamente
+No hay ninguna reserva hecha
+===============        INFO HOTEL        ===============
+HAB	CAP	ESTADO
+--------------------------------------------------------
+104	4	DISPONIBLE	
+========================================================
+Total habitaciones: 1
+Disponibles: 1	Ocupadas: 0	Sucias: 0
+Reserva registrada correctamente
+Habitación registrada correctamente
+===============        INFO HOTEL        ===============
+HAB	CAP	ESTADO
+--------------------------------------------------------
+104	4	OCUPADA		=> Cliente: Hornos Jordi
+105	2	DISPONIBLE	
+========================================================
+Total habitaciones: 2
+Disponibles: 1	Ocupadas: 1	Sucias: 0
+La habitación con el número '100' no se encuentra en la base de datos
+La habitación '105' no está ocupada
+Habitación registrada correctamente
+Reserva registrada correctamente
+Datos del Cliente:	Jordi , Hornos - Tfn: 123456789Habitación:  104
+El cliente con dni '23415678E' no tiene ninguna reserva
+===========      RESERVAS      ===========
+104 : 12345678Z - Hornos Jordi - 123456789
+105 : 45790286T - Segura Albert - 123456789
+Reserva anulada sin ningún coste. La habitación ahora esta disponible
+===============        INFO HOTEL        ===============
+HAB	CAP	ESTADO
+--------------------------------------------------------
+104	4	DISPONIBLE	
+105	2	OCUPADA		=> Cliente: Segura Albert
+106	2	DISPONIBLE	
+========================================================
+Total habitaciones: 3
+Disponibles: 2	Ocupadas: 1	Sucias: 0
+Precio total: 240.00 €. La habitación queda en espera del servicio de limpieza
+===============        INFO HOTEL        ===============
+HAB	CAP	ESTADO
+--------------------------------------------------------
+104	4	DISPONIBLE	
+105	2	SUCIA	
+106	2	DISPONIBLE	
+========================================================
+Total habitaciones: 3
+Disponibles: 2	Ocupadas: 0	Sucias: 1
+La habitación '106' no está sucia
+La habitación '104' no está sucia
+La habitación '105' se ha limpiado correctamente
+===============        INFO HOTEL        ===============
+HAB	CAP	ESTADO
+--------------------------------------------------------
+104	4	DISPONIBLE	
+105	2	DISPONIBLE	
+106	2	DISPONIBLE	
+========================================================
+Total habitaciones: 3
+Disponibles: 3	Ocupadas: 0	Sucias: 0

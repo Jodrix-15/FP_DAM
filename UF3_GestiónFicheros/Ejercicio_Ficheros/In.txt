@@ -1,0 +1,43 @@
+añadir habitacion -1 4 50
+añadir habitacion 0 1 50
+añadir habitacion 1 0 40
+añadir habitacion 100 1 -1
+añadir
+añadir habitacion
+añadir reserva
+añadir reserva -1 hornos jordi 123 123
+añadir reserva 0 hornos jordi 123 123
+añadir reserva 100 hornos jordi 123456789 123123123
+añadir reserva 100 hornos jordi 12345678z 123 
+finalizar
+finalizar 100 -1
+limpiar
+limpiar 100
+finalizar 100 5
+list
+info 12345678Z
+info asdf asdf
+reservas
+reservas 234
+añadir habitacion 104 4 50
+reservas
+list
+añadir reserva 104 hornos jordi 12345678z 123456789
+añadir habitacion 105 2 60 
+list
+finalizar 100 0
+finalizar 105 4
+añadir habitacion 106 2 40
+añadir reserva 105 segura albert 45790286t 123456789
+info 12345678z
+info 23415678E
+reservas
+finalizar 104 0
+list
+finalizar 105 4
+list
+limpiar 106
+limpiar 104
+limpiar 105
+list
+
