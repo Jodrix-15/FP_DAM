@@ -56,6 +56,8 @@ comprovar i informar, com sempre, de tots els possibles errors
 Mostrarà tota la informació de totes les habitacions de l’hotel de la següent 
 manera:
 
+!()
+
 ### f) info dni
 Mostrarà l’habitació (o habitacions) que tingui reservada el client indicat, si 
 és que té alguna reserva. 
