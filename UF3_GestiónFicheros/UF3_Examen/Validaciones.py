@@ -1,5 +1,63 @@
 #En este archivo he puesto todas las funciones que verifican si un dato se ha introducido correctamente o no.
 
+import DateFile as d
+import Inscripciones as i
+
+def valAlta(comandos):
+    dniVal, grauValido, notaValida, fechaValida = False, False, False, False
+    if correctArgumentos(comandos, 4):
+        if dniValido(comandos[0]):
+            dniVal = True
+            if cicloValido(comandos[1].upper()):
+                grauValido = True
+                if notaAprobada(float(comandos[2])):
+                    notaValida = True
+                    if d.compararFechas(d.hoy(), d.fecha2Date(comandos[3], "%d-%m-%Y"))[0]:
+                        fechaValida = True
+                    else:
+                        print("ERROR. La fecha tiene que ser anterior o igual a hoy")
+
+        if dniVal and grauValido and notaValida and fechaValida:
+            i.alta(comandos[0].upper(), comandos[1].upper(), comandos[2], comandos[3])
+
+
+def valBaixa(comandos):
+    if correctArgumentos(comandos, 1):
+        if dniValido(comandos[0]):
+            i.baixa(comandos[0].upper())
+
+def valLlistat(comandos):
+    if correctArgumentos(comandos, 1):
+        if cicloValido(comandos[0].upper()) or comandos[0].upper() == "*":
+            i.llistat(comandos[0].upper())
+
+def valMitjana(comandos):
+    if correctArgumentos(comandos, 0):
+        i.mitjana()
+
+def valStats(comandos):
+    if correctArgumentos(comandos, 0):
+        i.stats()
+def cicloValido(nombreCiclo):
+    ciclosValidos = ["AIF", "TIL", "MIN", "DAM", "ASIC"]
+    esValido = False
+    if nombreCiclo in ciclosValidos:
+        esValido = True
+    else:
+        if nombreCiclo != "*":
+            print(f"El ciclo '{nombreCiclo}' no es válido")
+
+    return esValido
+
+def notaAprobada(nota):
+    esAprobado = False
+    if 10 >= nota >= 5:
+        esAprobado = True
+    else:
+        print("La nota debe estar entre 5 y 10 (ambas incluidas)")
+
+    return esAprobado
+
 
 '''Recibe una lista de comandos y, si tiene el número correcto de elementos, devuelve True.
 De lo contrario devuelva False.'''
@@ -57,6 +115,7 @@ def dniValido(dniString):
         else:
             print("El formato del DNI debe ser '12345678X'")
     else:
-        print("ERROR. Debe contener 8 números y una letra al final")
+        print("ERROR. El DNI debe contener 8 números y una letra al final")
 
     return esValido
+

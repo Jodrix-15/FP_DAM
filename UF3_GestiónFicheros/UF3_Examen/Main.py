@@ -8,28 +8,16 @@ def main():
 
     comandos = sys.argv
     if len(comandos)>1:
-        if comandos[1].lower() == "":
-            if len(comandos) > 2:
-                if comandos[2].lower() == "":
-
-                elif comandos[2].lower() == "":
-
-                else:
-                    print("ERROR. El segundo argumento debe ser 'o' o ''")
-            else:
-                print("ERROR. Si el primer argumento es '', debe haber obligatoriamente un segundo argumento")
-
-        elif comandos[1].lower() == "":
-
-        elif comandos[1].lower() == "":
-
-        elif comandos[1].lower() == "":
-
-        elif comandos[1].lower() == "":
-
-        elif comandos[1].lower() == "":
-
-
+        if comandos[1].lower() == "alta":
+            v.valAlta(comandos[2:len(comandos)])
+        elif comandos[1].lower() == "baixa":
+            v.valBaixa(comandos[2:len(comandos)])
+        elif comandos[1].lower() == "llistat":
+            v.valLlistat(comandos[2:len(comandos)])
+        elif comandos[1].lower() == "mitjana":
+            v.valMitjana(comandos[2:len(comandos)])
+        elif comandos[1].lower() == "stats":
+            v.valStats(comandos[2:len(comandos)])
         else:
             print("OPCION NO VALIDA")
     else:

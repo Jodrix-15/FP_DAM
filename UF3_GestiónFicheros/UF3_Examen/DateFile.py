@@ -2,10 +2,12 @@
 
 import datetime as d
 
-
 '''Retorna la fecha actual'''
 def hoy():
     return d.date.today()
+
+def horaActual():
+    return d.date.strftime(d.datetime.now(), "%H:%M:%S")
 
 '''Recibe como argumentos una fecha tipo Date y el formato de la misma.
 Retorna la fecha en tipo String con el formato pasado por argumento'''
